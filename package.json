@@ -1,0 +1,36 @@
+{
+  "name": "nuxt3-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
+    "@rushstack/eslint-patch": "^1.6.0",
+    "@unocss/nuxt": "^0.57.7",
+    "@unocss/preset-rem-to-px": "^0.57.7",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "nuxt": "^3.8.2",
+    "postcss": "^8.4.31",
+    "postcss-px-to-viewport-8-plugin": "^1.2.3",
+    "sass": "^1.69.5",
+    "vue": "^3.3.8",
+    "vue-eslint-parser": "^9.3.2",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "@unocss/reset": "^0.57.7",
+    "pinia": "^2.1.7"
+  }
+}
